@@ -32,7 +32,9 @@ function prependKitten(kitten) {
   return newArray;
 }
 
-
+function removeLastKitten() {
+  var newArray = kitten.slice()
+}
 
 
 
