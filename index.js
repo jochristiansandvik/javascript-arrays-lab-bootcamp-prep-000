@@ -23,12 +23,12 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(kitten) {
-  var newArray = [kitten, ...kittens];
+  var newArray = [...kittens, kitten];
   return newArray;
 }
 
 function prependKitten(kitten) {
-  var newArray = [...kittens, kitten];
+  var newArray = [kitten, ...kittens];
   return newArray;
 }
 
